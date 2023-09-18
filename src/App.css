@@ -1,0 +1,48 @@
+/* Centrar pagina */
+.contenedor-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  width: 100vw;
+  background-color: rgb(105, 4, 4);
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+
+.contenedor-noticias {
+  display: grid;
+  place-items: center;
+}
+
+.pais {
+  margin-top: 20px;
+  display: flex;
+  justify-content: cen;
+  gap: 10px;
+}
+
+.noticia {
+  display: flex;
+  margin: 20px;
+  gap: 20px;
+}
+
+.noticia .contenido {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.noticia a {
+  width: fit-content;
+  padding: 10px;
+  background: rgb(105, 4, 4);
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+}
