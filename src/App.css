@@ -24,6 +24,12 @@ header img {
   padding-right: 20vw;
 }
 
+@media screen and (max-width: 768px) {
+  .contenedor-noticias {
+    padding: 20px;
+  }
+}
+
 .pais {
   margin-top: 20px;
   display: flex;
