@@ -15,7 +15,7 @@ function App() {
       </main>
       <footer style={{ display: "flex", justifyContent: "center" }}>
         <p>Desarrollado por</p>
-        <p style={{ fontWeight: "700" }}>laetusdev</p>
+        <p style={{ fontWeight: "700" }}>louysdev</p>
         <GithubIcon />
       </footer>
     </div>
