@@ -18,10 +18,12 @@ export const buscarNoticas = (noticias) => {
       posicionPunto
     );
 
+    const contenidoFiltrado = descripcionHastaPunto.replace(/&nbsp;/g, " ");
+
     const newNoticia = {
       id: id,
       titulo: titulo,
-      descripcion: `${descripcionHastaPunto}.`,
+      descripcion: `${contenidoFiltrado}.`,
       enlace: enlace,
       imagen: imagenUrl,
     };

@@ -9,8 +9,9 @@ export default function Noticias() {
     <section className="contenedor-noticias">
       <section className="pais">
         <h3>Republica Dominicana</h3>
-        <span class="fi fi-do"></span>
+        <span className="fi fi-do"></span>
       </section>
+
       <ul className="noticias">
         {noticias.map((noticia) => {
           return (
