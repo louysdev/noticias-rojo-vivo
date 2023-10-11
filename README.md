@@ -13,8 +13,8 @@ Este README te servirá para que puedas probar el proyecto donde gustes.
 
 ## Vista previa
 
-![Sitio Web (PC)](./assets/preview.png)
-![Sitio Web (Movil)](./assets/preview-movil.png)
+![Sitio Web (PC)](./src/assets/preview.png)
+![Sitio Web (Movil)](./src/assets/preview-movil.png)
 
 ## Requisitos
 
